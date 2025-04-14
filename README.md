@@ -63,8 +63,8 @@ A lightweight, zero‑framework static site starter that combines:
 
 1. **Clone** the repo:
    ```bash
-   git clone https://github.com/your‑username/nunjucks‑starter.git
-   cd nunjucks‑starter
+   git clone https://github.com/kmanadkat/nunjucks-scsss-starter.git
+   cd nunjucks-scsss-starter
    ```
 
 2. **Install** dependencies:
