@@ -1,0 +1,5 @@
+{
+	"heroTitle": "Welcome to Nunjucks Site",
+	"heroText": "Enhancing development workflow",
+	"features": ["Resusable code snippets", "Live reload on code change", "Optimized output", "Test Feature"]
+}

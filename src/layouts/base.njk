@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "partials/head.njk" %}
+<body>
+  {% include "partials/navbar.njk" %}
+  <main>{% block content %}{% endblock %}</main>
+  {% include "partials/footer.njk" %}
+  
+
+  {% if dev %}
+    <script>
+      (function() {
+        const ws = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host);
+        ws.onmessage = () => location.reload();
+      })();
+    </script>
+  {% endif %}
+</body>
+</html>

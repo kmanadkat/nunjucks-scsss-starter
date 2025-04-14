@@ -1,0 +1,19 @@
+{% extends "layouts/base.njk" %}
+
+{% block title %}{{ heroTitle }}{% endblock %}
+
+{% block content %}
+  <section class="hero">
+    <h1>{{ heroTitle }}</h1>
+    <p>{{ heroText }}</p>
+  </section>
+
+  <section class="features">
+    <h2>Why Choose Us?</h2>
+    <ul>
+      {% for feature in features %}
+        <li>{{ feature }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endblock %}

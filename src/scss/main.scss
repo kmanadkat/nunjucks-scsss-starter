@@ -1,0 +1,16 @@
+@use 'variables';
+
+body {
+	font-family: Arial, sans-serif;
+	background: #f5f5f5;
+	color: #333;
+}
+
+nav {
+	background: variables.$primary;
+	padding: 1rem;
+	a {
+		color: white;
+		text-decoration: none;
+	}
+}
