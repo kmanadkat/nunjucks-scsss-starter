@@ -50,12 +50,8 @@ A lightweight, zero‑framework static site starter that combines:
 │   ├── data/
 │   │   ├── index.json         # Page data for index.njk
 │   ├── scss/
-│   │   ├── _variables.scss
-│   │   └── main.scss
-│   └── assets/
-│       ├── css/               # (generated)
-│       ├── js/
-│       └── images/
+│       ├── _variables.scss
+│       └── main.scss
 ├── dist/                      # Built site (HTML, CSS, assets)
 ├── build.js                   # Build + watch + serve logic
 └── package.json
